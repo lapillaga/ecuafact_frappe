@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include ecuafact_frappe *.css
+recursive-include ecuafact_frappe *.csv
+recursive-include ecuafact_frappe *.html
+recursive-include ecuafact_frappe *.ico
+recursive-include ecuafact_frappe *.js
+recursive-include ecuafact_frappe *.json
+recursive-include ecuafact_frappe *.md
+recursive-include ecuafact_frappe *.png
+recursive-include ecuafact_frappe *.py
+recursive-include ecuafact_frappe *.svg
+recursive-include ecuafact_frappe *.txt
+recursive-exclude ecuafact_frappe *.pyc
